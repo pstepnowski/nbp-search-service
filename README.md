@@ -24,13 +24,13 @@ Options:
 
 ### Locally 
 Used Node.js 18.x
-- yarn install
-- npm link
-- nbp-serach-best-investment --invest=135000 --years=5
+- `yarn install`
+- `npm link`
+- `yarn dev-start --invest=135000 --years=5` or `nbp-serach-best-investment --invest=135000 --years=5` 
 
 ### Using Docker 
-- docker build -t nbp-serach-best-investment .
-- docker run nbp-serach-best-investment --invest=135000 --years=5
+- `docker build -t nbp-serach-best-investment .`
+- `docker run nbp-serach-best-investment --invest=135000 --years=5`
 
 ### Tests
 
